@@ -1,0 +1,47 @@
+# print("С русского на английский введите 1 \nC английского на русский введите 2")
+# v = int(input())
+# if v == 2:
+#     while True:
+#         answers = random.sample(list(diction.keys()), 4)
+#         question = random.choice(answers)
+
+
+#         print('whats is the english "' + question   + '"')
+
+#         for i, a in enumerate(answers):
+#             print(i+1, diction[a])
+
+#         answer = int(input())
+#         print(answer)
+
+#         if answers[answer-1] == question:
+#             print("Correct")
+#         else:
+#             print("Wrong answer \nCorrect answer '" + diction[question] +"'")
+
+
+# elif v == 1:
+#     newdict={}
+#     for k, v in diction.items():
+#         newdict.setdefault(v,k)
+
+#     while True:
+#         answers = random.sample(list(newdict.keys()), 4)
+#         question = random.choice(answers)
+
+
+#         print('Как на русском будет слово "' + question   + '"')
+
+#         for i, a in enumerate(answers):
+#             print(i+1, newdict[a])
+
+#         answer = int(input())
+#         print(answer)
+
+#         if answers[answer-1] == question:
+#             print("Correct")
+#         else:
+#             print("Wrong answer \nCorrect answer '" + newdict[question] +"'")
+# else: 
+#     print('Неверный ответ')
+
